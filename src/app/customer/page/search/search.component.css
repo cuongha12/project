@@ -1,0 +1,319 @@
+.search-fields {
+    position: relative;
+    padding: 10px 60px;
+    border-bottom: 2px solid #e4e6eb;
+}
+.search-form{
+    margin-top: 50px;
+}
+.search-fields:hover{
+    border-color: #23232c;
+}
+ .search-fields button {
+    box-shadow: none;
+    text-shadow: none;
+    position: absolute;
+    border: 0;
+    padding: 0;
+    background: 0 0;
+    color: #000;
+    font-size: 17px;
+}
+.search-submit {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .5s;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    min-width: none !important;
+}
+ .search-field {
+    font-size: 16px;
+
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+.search-field:focus{
+    outline: none;
+}
+.search-reset{
+    box-shadow: none;
+    text-shadow: none;
+    position: absolute;
+    border: 0;
+    padding: 0;
+    background: 0 0;
+    color: #000;
+    font-size: 17px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.search-submit:focus{
+    outline: none;
+} 
+.search-reset:focus{
+    outline: none;
+}
+.carousel{
+    margin-top: 50px;
+}
+.sober-banner-grid-5 {
+    padding: 0 60px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+    
+    margin-top: 50px;
+}
+.sober-banner-grid-5 .banners-wrap {
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+.sober-banner-grid-5 .banners {
+   
+    width: 29.18919%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sober-banner-grid-5 .banners>div:last-child {
+    margin-bottom: 0;
+}
+.sober-banner-grid-5 .banners>div {
+    margin-bottom: 20px;
+    background: center no-repeat;
+    background-clip: content-box;
+    background-size: auto 100%;
+}
+.sober-banner2 {
+    position: relative;
+    overflow: hidden;
+}
+a {
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sober-banner-grid-5 .banners-column-2 {
+    width: 41.62162%;
+}
+
+.sober-banner2 img {
+    width: 100%;
+    object-fit: scale-down;
+}
+img {
+    max-width: 100%;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    border: 0;
+}
+.vc_empty_space{
+    height: 100px;
+}
+.vc_empty_space h2{
+    font-size: 24px;
+    line-height: 1;
+    text-align: left;
+}
+.vc_custom_heading {
+    font-size: 40px;
+    font-size: 4rem;
+    font-family: "Sofia Pro",Popins,sans-serif;
+    margin: 0 0 70px;
+}
+.wpb_wrapper{
+    margin-top: 100px;
+}
+.products{
+   padding: 0;
+}
+.woocommerce ul.products {
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style: disc;
+}
+ul, ol {
+    margin: 0 0 1.5em;
+}
+.woocommerce ul.products li.product {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 45px;
+}
+.col-lg-1-5{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.woocommerce ul.products li.product .product-header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 405px;
+}
+.woocommerce ul.products li.product a img {
+    margin-bottom: 0;
+    -webkit-transition: opacity .7s;
+    transition: opacity .7s;
+    max-height: 100%;
+    max-width: 100%;
+}
+.woocommerce .ribbons {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 45px;
+    z-index: 10;
+}
+.woocommerce ul.products li.product h3 {
+    margin-bottom: 3px;
+}
+.woocommerce ul.products li.product h3 {
+    height: 32px;
+    overflow: hidden;
+    font-size: 1.4rem;
+    color: #1e1e23;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 20px;
+}
+.woocommerce ul.products li.product .price {
+    font-size: 12px;
+    font-size: 1.4rem;
+    color: #1e1e23;
+    font-weight: 600;
+    line-height: 1;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+}
+mark, ins {
+    text-decoration: none;
+}
+.woocommerce ul.products li.product .buttons {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+.woocommerce ul.products li.product .button{
+    border-radius: 50%;
+    -webkit-transition: opacity .3s,-webkit-transform .5s;
+    transition: opacity .3s,-webkit-transform .5s;
+    transition: transform .5s,opacity .3s;
+    transition: transform .5s,opacity .3s,-webkit-transform .5s;
+    margin: 0 5.5px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    min-width: 0;
+    min-height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    opacity: 0;
+    background-color: #23232c;
+}
+button{
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: #23232c;
+    cursor: pointer;
+    position: relative;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.screen-reader-text{
+    clip: rect(1px,1px,1px,1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.woocommerce ul.products li.product .button{
+    border-radius: 50%;
+    -webkit-transition: opacity .3s,-webkit-transform .5s;
+    transition: opacity .3s,-webkit-transform .5s;
+    transition: transform .5s,opacity .3s;
+    transition: transform .5s,opacity .3s,-webkit-transform .5s;
+    margin: 0 5.5px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    min-width: 0;
+    min-height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    opacity: 0;
+    background-color: #23232c;
+}
+.woocommerce a.button{
+    font-weight: 500;
+    border-radius: 0;
+    background-color: #23232c;
+    color: #fff;
+    padding: 0;
+    line-height: 60px;
+}
+.woocommerce ul.products li.product:hover .button{
+    -webkit-transform: translateY(-72px);
+    transform: translateY(-72px);
+    opacity: 1;
+    
+}
+
+
+.woocommerce ul.products li.product.col-lg-1-5 .product-header {
+    max-height: 225px;
+}
+.col-lg-1-5 {
+    width: 20%;
+    float: left;
+}
+.buttons a:hover{
+    background: red;
+}
+.woocommerce ul.products li.product .button:hover{
+    background:  #111114;;
+}
+.search-item{
+    height: 5450px;
+}

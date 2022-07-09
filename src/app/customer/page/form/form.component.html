@@ -1,0 +1,50 @@
+<div class="forms">
+
+    <h1 class="form-title">Đăng ký</h1>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="form-group">
+            <input formControlName="name" id="name" type="text" placeholder="Họ và tên" class=" form-input">
+            <div *ngIf="f['name'].touched && f['name'].invalid">
+                <div *ngIf="f['name'].errors && f['name'].errors['required']" class="form-err">Vui lòng nhập tài khoản
+                </div>
+
+
+                <div *ngIf="f['name'].errors && f['name'].errors['minlength'] " class="form-err">Tài khoản tối 3 kí tự
+                    trở lên</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <input formControlName="email" id="email" type="text" class="form-input" placeholder="Email">
+            <div *ngIf="f['email'].touched && f['email'].invalid">
+                <div *ngIf="f['email'].errors && f['email'].errors['required']" class="form-err">Vui lòng nhập Email
+                </div>
+                <div *ngIf="f['email'].errors && f['email'].errors['email']" class="form-err">Không đúng định dạng Email
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <input formControlName="password" id="password" type="password" class="form-input" placeholder="Mật khẩu">
+            <div *ngIf="f['password'].touched && f['password'].invalid">
+                <div *ngIf="f['password'].errors.required" class="form-err">Vui lòng nhập mật khẩu</div>
+                <div *ngIf="f['password'].errors.minlength" class="form-err">Mat khau yeu</div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+
+            <input formControlName="number" id="number" type="text" class="form-input" placeholder="Điện thoại">
+            <div *ngIf="f['number'].touched && f['number'].invalid" class="form-err">
+                <div *ngIf="f['number'].errors['number'].required" class="form-err">Vui lòng nhập
+                    số điện
+                    thoại</div>
+            </div>
+        </div>
+        <button class="htmlBtn first" [disabled]="f.invalid.name" type="submit" (onSubmit)="submit()">Đăng ký</button>
+    </form>
+</div>

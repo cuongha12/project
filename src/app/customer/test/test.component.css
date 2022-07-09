@@ -1,0 +1,31 @@
+.sober-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sober-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    
+}
+.header-sticky-smart .site-header.headroom {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1500;
+}
+.headroom {
+    will-change: transform;
+    -webkit-transition: -webkit-transform .2s linear;
+    transition: -webkit-transform .2s linear;
+    transition: transform .2s linear;
+    transition: transform .2s linear,-webkit-transform .2s linear;
+}
+.sticky{
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    padding-bottom: 0;
+} 

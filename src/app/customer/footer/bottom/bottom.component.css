@@ -1,0 +1,10 @@
+a {
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+    text-decoration: none;
+    cursor: pointer;
+}
+.col-centered{
+    text-align: center;
+}

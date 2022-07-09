@@ -1,0 +1,68 @@
+.site-branding {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.header-icon ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+a {
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fas-icon{
+    -webkit-transition: .5s;
+    transition: .5s;
+    width: 18px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    stroke: #23232c;
+    stroke-width: 0px;
+    fill: #23232c;
+}
+.header-icon {
+    text-align: right;
+}
+.header-icon li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.header-icon li:last-child {
+    margin-right: 0;
+}
+.header-icon li.menu-item-cart, .header-icon li.menu-item-wishlist {
+    position: relative;
+    padding-right: 25px;
+}
+.list-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.list-dropdown ul li {
+    padding: 5px 20px;
+}
+.list-dropdown ul {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+    min-width: 80px;
+    white-space: nowrap;
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    background: #fff;
+    opacity: 0;
+    z-index: -1;
+
+}
+.list-dropdown:hover ul{
+  opacity: 1;
+  z-index: 1600;
+}

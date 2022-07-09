@@ -1,0 +1,56 @@
+.copyright {
+    color: #23232c;
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-menu {
+    display: inline-block;
+}
+.footer-menu .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-menu li {
+    padding: 0 17px;
+    display: inline-block;
+}
+.footer-menu a {
+    color: #909097;
+    cursor: pointer;
+}
+.footer-menu a:hover {
+    color: black;
+    
+}
+.footer-social {
+    text-align: right;
+}
+.socials-menu .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.socials-menu li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.socials-menu a {
+    color: #909097;
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.socials-menu span, .woocommerce div.product .woocommerce-Reviews-title, .woocommerce-account h1.entry-title, .woocommerce-wishlist h1.entry-title, .woocommerce-order-tracking h1.entry-title {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.socials-menu a:hover {
+    color: #23232c;
+}

@@ -1,0 +1,95 @@
+<div class="product-toolbar">
+    <div class="woocommerce-breadcrumb breadcrumb">
+        <div class="sober-container">
+            <ul class="ul-foot"> 
+                <li class="li-foot">
+                    <a href="">TRANG CHỦ    </a>
+                </li>
+                <li class="li-foot">
+                    MAN
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row-foot">
+    <div class="col-lg-3">
+        <div class="widget-area primary-sidebar col-md-4 shop-sidebar">
+            <div class="widget woocommerce widget_product_categories">
+                <h2 class="widget-title">
+                    Sản Phẩm
+                </h2>
+                <ul class="product-categories"> 
+                    <li class="cat-item cat-item-35 current-cat"><a href="/footwear-pc152050.html">Footwear</a></li>
+                    <li class="cat-item cat-item-35 current-cat"><a href="/accessories-pc152051.html">Accessories</a></li>
+                    <li class="cat-item cat-item-35 current-cat"><a href="/women-pc152052.html">Women</a></li>
+                    <li class="cat-item cat-item-35 current-cat"><a href="/man-pc152053.html">Man</a></li>
+                    <li class="cat-item cat-item-35 current-cat"><a href="/bags-pc152071.html">Bags</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <div class="content-area">
+            <div class="shop-toolbar">
+                <div class="row">
+                    <div class="col-sm-9 col-md-7 hidden-xs nav-filter"></div>
+                    <div class="col-xs-12 col-sm-3 col-md-5 controls">
+                        <ul class="toolbar-control">
+                            <li class="data totals">
+                                <p class="woocommerce-result-count">8 sản phẩm</p>
+                            </li>
+                            <li class="data product-size"> 
+                                <a class="medium-size">
+                                    <i class="fas fa-align-justify"></i>
+                                </a>
+                                <a class="large-size active">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li class="data filter"> 
+                                <a href="#" class="toggle-filter">
+                                    <i class="fa fa-filter" aria-hidden="true"></i>
+                                    Bộ lọc                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="woocommerce columns-5" *ngFor="let item of list">
+            <ul class="products" >
+                <li class="itemHoverImg product product-wrapper new col-md-4 col-sm-4 col-xs-6 col-lg-1-5 col-li" >
+                    <div class="product-header">
+                        <a routerLink="/detail/{{item.id}}"class="woocommerce-LoopProduct-link">
+                          <img class="first-img" data-hover="" src="{{item.img}}">
+                          <span class="ribbons">
+                          </span>
+                        </a>
+                        <div class="buttons">
+                            <a href="/demo-p5677517.html" rel="nofollow" class="button add_to_cart_button">
+                              <i class="fas fa-shopping-bag"></i>
+                              <span class="screen-reader-text">Thêm vào giỏ</span>
+                            </a>
+                            <a data-product_id="5677517" class="button btnFav" rel="nofollow">
+                              <i class="far fa-heart"></i>
+                              <span class="screen-reader-text">Yêu thích</span>
+                            </a>
+                        </div>
+                    </div>
+                    <h3><a href="/demo-p5677517.html">{{item.name}}</a></h3>
+                    <span class="price">
+                      <span class="woocs_price_code">
+                      <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">
+
+                      </span>{{item.price}}</span>
+                    </ins>                                    
+                </span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
