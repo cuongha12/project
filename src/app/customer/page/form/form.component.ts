@@ -13,23 +13,35 @@ export class FormComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  submit() {
+  formSigup = new FormGroup({
+    userName: new FormControl('', [
+      Validators.required,
+      Validators.minLength(6)
+    ]),
+    email: new FormControl('', [
+      Validators.required,
+      Validators.email
+    ]),
+    phone: new FormControl('', [
+      Validators.required,
+      Validators.pattern("(09|03|07|08|05)+([0-9]{8})")
+    ]),
+    password: new FormControl('', [
+      Validators.required
+    ]),
+    address: new FormControl(''),
+    date: new FormControl(''),
+  })
 
-    if (this.form.invalid) {
-      this.servit.createForm(this.form.value).subscribe((data) => {
-        this.router.navigate(['/login'])
-      })
-    }
+  onSubmit(): void {
+    this.servit.createForm(this.formSigup.value).subscribe((data) => {
+      if(data){
+        this.router.navigate(['login'])
+      }
+    })
+    console.log(this.formSigup.value)
   }
-  form: any = new FormGroup({
-    name: new FormControl('', [Validators.required, Validators.minLength(3)]),
-    email: new FormControl('', [Validators.required, Validators.email]),
-    password: new FormControl('', [Validators.required, Validators.minLength(8)],),
-    number: new FormControl('', [Validators.required, Validators.pattern(/^(0|[1-9][0-9]*)$/)])
-
-  });
-
   get f(): any {
-    return this.form.controls;
+    return this.formSigup.controls;
   }
 }

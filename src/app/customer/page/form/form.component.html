@@ -1,50 +1,56 @@
-<div class="forms">
-
-    <h1 class="form-title">Đăng ký</h1>
-
-    <form [formGroup]="form" (ngSubmit)="submit()">
-        <div class="form-group">
-            <input formControlName="name" id="name" type="text" placeholder="Họ và tên" class=" form-input">
-            <div *ngIf="f['name'].touched && f['name'].invalid">
-                <div *ngIf="f['name'].errors && f['name'].errors['required']" class="form-err">Vui lòng nhập tài khoản
+<h3 class="form-h3">Đăng ký</h3>
+<form action="" [formGroup]="formSigup" (ngSubmit)="onSubmit()">
+    <div class="default-form-box">
+        <input type="" class="form-input" formControlName="userName" placeholder="Họ và tên">
+        <div *ngIf="f.userName.invalid && (f.userName.dirty || f.userName.touched )">
+            <div *ngIf="f.userName.errors">
+                <div *ngIf="f.userName.errors.required">
+                    <small id="userHelp" class="form-text text-danger">Bạn chưa nhập Tên đầy đủ</small>
                 </div>
-
-
-                <div *ngIf="f['name'].errors && f['name'].errors['minlength'] " class="form-err">Tài khoản tối 3 kí tự
-                    trở lên</div>
-            </div>
-        </div>
-
-        <div class="form-group">
-
-            <input formControlName="email" id="email" type="text" class="form-input" placeholder="Email">
-            <div *ngIf="f['email'].touched && f['email'].invalid">
-                <div *ngIf="f['email'].errors && f['email'].errors['required']" class="form-err">Vui lòng nhập Email
-                </div>
-                <div *ngIf="f['email'].errors && f['email'].errors['email']" class="form-err">Không đúng định dạng Email
+                <div *ngIf="f.userName.errors.minlength">
+                    <small id="userHelp" class="form-text text-danger">Tên quá ngắn</small>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="form-group">
-
-            <input formControlName="password" id="password" type="password" class="form-input" placeholder="Mật khẩu">
-            <div *ngIf="f['password'].touched && f['password'].invalid">
-                <div *ngIf="f['password'].errors.required" class="form-err">Vui lòng nhập mật khẩu</div>
-                <div *ngIf="f['password'].errors.minlength" class="form-err">Mat khau yeu</div>
+    <div class="default-form-box"> <input type="email" class="form-input" formControlName="email" placeholder="Email">
+        <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched )">
+            <div *ngIf="f.email.errors">
+                <div *ngIf="f.email.errors.required">
+                    <small id="userHelp" class="form-text text-danger">Bạn chưa nhập Email</small>
+                </div>
+                <div *ngIf="f.email.errors.email">
+                    <small id="userHelp" class="form-text text-danger">Địa chỉ email không hợp lệ</small>
+                </div>
             </div>
         </div>
+    </div>
 
-
-        <div class="form-group">
-
-            <input formControlName="number" id="number" type="text" class="form-input" placeholder="Điện thoại">
-            <div *ngIf="f['number'].touched && f['number'].invalid" class="form-err">
-                <div *ngIf="f['number'].errors['number'].required" class="form-err">Vui lòng nhập
-                    số điện
-                    thoại</div>
+    <div class="default-form-box"> <input type="text" id="phone" name="phone" class="form-input" formControlName="phone"
+            placeholder="Điện thoại">
+        <div *ngIf="f.phone.invalid && (f.phone.dirty || f.phone.touched )">
+            <div *ngIf="f.phone.errors">
+                <div *ngIf="f.phone.errors.required">
+                    <small id="userHelp" class="form-text text-danger">Bạn chưa nhập số điện thoại</small>
+                </div>
+                <div *ngIf="f.phone.errors.pattern">
+                    <small id="userHelp" class="form-text text-danger">Không đúng định dạng</small>
+                </div>
             </div>
         </div>
-        <button class="htmlBtn first" [disabled]="f.invalid.name" type="submit" (onSubmit)="submit()">Đăng ký</button>
-    </form>
-</div>
+    </div>
+    <div class="default-form-box"> <input type="password" class="form-control" class="form-input"
+            formControlName="password" placeholder="Mật khẩu">
+        <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched )">
+            <div *ngIf="f.password.errors">
+                <div *ngIf="f.password.errors.required">
+                    <small id="userHelp" class="form-text text-danger">Bạn chưa nhập Mật khẩu</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="htmlBtn">Đăng ký</button>
+
+</form>

@@ -16,12 +16,11 @@
                     <div class="sizeWrp"></div>
                     <div class="cart">
                         <div class="quantity" style="padding: 7px;">
-                            <button class="decrease">
+                            <button class="decrease" (click)="mark('-')">
                                 -
                             </button>
-                            <i id="quantity" class="input-text qty text" max="5000" val="1"
-                                style="background: none;">1</i>
-                            <button class="increase">
+                           <input value="1" id="quantity" class="input-detail"/>
+                            <button class="increase"  (click)="mark('+')" >
                                 +
                             </button>
                         </div>

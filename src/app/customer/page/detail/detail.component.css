@@ -161,3 +161,8 @@ a.button{
 ._ohf {
     float: right;
 }
+.input-detail{
+    border: none;
+    outline: none;
+    width: 20%;
+}

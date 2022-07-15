@@ -18,5 +18,15 @@ export class DetailComponent implements OnInit {
 
     })
   }
-
+  mark(mark: any) {
+    let quantily: any = document.getElementById('quantity')
+    console.log(quantily)
+    if (mark == '-') {
+      if (quantily.value > 1) {
+        quantily.value = quantily.value - 1
+      }
+    } else {
+      quantily.value = Number(quantily.value) + 1
+    }
+  }
 }
