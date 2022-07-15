@@ -3,7 +3,7 @@
     <div class="default-form-box">
         <input type="" class="form-input" formControlName="userName" placeholder="Họ và tên">
         <div *ngIf="f.userName.invalid && (f.userName.dirty || f.userName.touched )">
-            <div *ngIf="f.userName.errors">
+            <div *ngIf="f.userName.errors" >
                 <div *ngIf="f.userName.errors.required">
                     <small id="userHelp" class="form-text text-danger">Bạn chưa nhập Tên đầy đủ</small>
                 </div>
