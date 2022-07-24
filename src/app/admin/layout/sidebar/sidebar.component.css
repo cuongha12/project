@@ -1,0 +1,12 @@
+.sideBar {
+    border: 2px solid #ffc107;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.sideBar:focus {
+    border-radius: 22px;
+    background-color: #ffc107;
+    /* color: #fff !important; */
+    font-weight: 500;
+}

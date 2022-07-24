@@ -1,0 +1,97 @@
+<div class="container">
+    <div class="header d-flex justify-content-sb">
+        <h3>Edit Product</h3>
+        <button type="button" class="btn btn-success text-light m-2 "
+            style="text-transform: capitalize;font-size: 18px;" routerLink="/admin/products"><i
+                class="fa-solid fa-rotate-left"></i> Back To List
+        </button>
+    </div>
+    <form action="" [formGroup]="formData">
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Name Product</label>
+            <input type="text" class="ip-addProduct  w-100 p-2" formControlName="name">
+            <div *ngIf="f.name.invalid &&( f.name.dirty || f.name.touched )" class="text-danger">
+                <div *ngIf="f.name.errors.required">Name cannot be empty</div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Price</label>
+            <input type="number" class="ip-addProduct  w-100 p-2" formControlName="price">
+            <div *ngIf="f.price.invalid && (f.price.dirty || f.price.touched )" class="text-danger">
+                <div *ngIf="f.price.errors.required">Price cannot be empty</div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Sale Price</label>
+            <input type="number" class="ip-addProduct  w-100 p-2" formControlName="sale_price">
+            <small *ngIf="this.formData.value.price < this.formData.value.sale_price" class="text-danger">The sale price
+                must be less than the original price</small>
+        </div>
+        <div class="input-item mb-3">
+            <p>Category</p>
+            <div class="category-list d-flex wrap">
+                <div class="category-item col-lg-3" *ngFor="let item of listCategory">
+                    <input type="checkbox" name="{{item.id}}" id="{{item.id}}" class="category_id mr-2"
+                        (change)="changeCategory(item.id)"><label style="text-transform: capitalize;font-size: 18px;"
+                        for="{{item.id}}">{{item.name}}</label>
+                </div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <p>Tags</p>
+            <div class="tag-list d-flex wrap">
+                <div class="tag-item col-lg-3">
+                    <input type="checkbox" name="" id="tag1" class="mr-2" formControlName="new" value="1"><label
+                        style="text-transform: capitalize;font-size: 18px;" for="tag1">New</label>
+                </div>
+                <div class="tag-item col-lg-3">
+                    <input type="checkbox" name="" id="tag2" class="mr-2" formControlName="sale"><label
+                        style="text-transform: capitalize;font-size: 18px;" for="tag2">Sale</label>
+                </div>
+                <div class="tag-item col-lg-3">
+                    <input type="checkbox" name="" id="tag3" class="mr-2" formControlName="feature"><label
+                        style="text-transform: capitalize;font-size: 18px;" for="tag3">Feature</label>
+                </div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <div class="input-group">
+                <label for="" class="d-block w-100">Image Main</label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile04" (change)="changeImg($event)">
+                    <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                </div>
+            </div>
+            <div *ngIf="checkImg" class="text-danger">
+                <div>Image cannot be empty</div>
+            </div>
+            <img src="{{imageMain}}" alt="" style="max-width: 50%; max-height: 200px;">
+        </div>
+        <div class="input-item mb-3" id="child">
+            <div class="input-group">
+                <label for="" class="d-block w-100">Image Child</label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" data-id="change" id="change-image-child"
+                        (change)="AddImgChild($event)">
+                    <label class="custom-file-label" for="change-image-child">Choose file</label>
+                </div>
+            </div>
+            <div class="showImage d-flex mt-4 wrap">
+                <div class="image-child-item col-lg-3" style="border: 1px solid #ccc;"
+                    *ngFor="let item of image_child ; let i = index">
+                    <div class="head-img d-flex justify-content-sb align-items-ct">
+                        <p>Image {{i+1}}</p>
+                        <i (click)="removeChild(i)" style="font-size: 14px;
+                        margin-top: 8px;cursor: pointer;
+                    " class="fa-solid fa-xmark"></i>
+                    </div>
+                    <img src="{{item}}" alt="" id="{{i}}" style="max-width: 100%; max-height: 200px; cursor: pointer;">
+                </div>
+            </div>
+        </div>
+        <div class="submit text-center" style="margin-bottom: 100px;">
+            <button type="submit" (click)="submitForm()" [disabled]="!formData.valid" style=" font-weight: 600;"
+                class="btn btn-success w-100 p-2">Update Product</button>
+        </div>
+    </form>
+</div>

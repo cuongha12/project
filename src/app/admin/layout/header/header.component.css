@@ -1,0 +1,26 @@
+p {
+    margin: 0;
+}
+
+.user-logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%
+}
+
+.justify-sb {
+    justify-content: space-between;
+
+}
+
+.align-items-ct {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.header-main {
+    padding: 20px 0;
+}

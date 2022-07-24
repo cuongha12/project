@@ -18,5 +18,11 @@ export class ProductDataService {
     createForm(data: any) {
       return this.http.post<any>(`${API_form}`, data);
     }
+    deleteProduct(id:any){
+      return this.http.delete<any>(`${APi}/${id}`)
+    }
+    putProduct(data:any,id:any){
+      return this.http.put<any>(`${APi}/${id}`,data)
+    }
 }
 
