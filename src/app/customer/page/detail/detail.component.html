@@ -9,7 +9,7 @@
                     <h1 class="product_title" style="margin: 0;"> {{item.name}}</h1>
                     <div>
                         <p class="price">
-                            <span class="woocommerce-Price-amount amount">430,000 ₫ </span>
+                            <span class="woocommerce-Price-amount amount">{{item.price}} ₫ </span>
                         </p>
                     </div>
                     <div class="colorWrp"></div>
@@ -19,14 +19,15 @@
                             <button class="decrease" (click)="mark('-')">
                                 -
                             </button>
-                           <input value="1" id="quantity" class="input-detail"/>
-                            <button class="increase"  (click)="mark('+')" >
+                            <input value="1" id="quantity" class="input-detail" />
+                            <button class="increase" (click)="mark('+')">
                                 +
                             </button>
                         </div>
-                        <a id="addToCart" href="javascript:void(0)" class="btn buy single_add_to_cart_button button"
-                            psid="4798767" selid="4798767" ck="1" data-original-title="" title=""> <i
-                                style="font-size: 15px;" class="fa fa-shopping-bag" aria-hidden="true"></i> Thêm vào giỏ
+                        <a (click)="addCart()" id="addToCart" href="javascript:void(0)"
+                            class="btn buy single_add_to_cart_button button" psid="4798767" selid="4798767" ck="1"
+                            data-original-title="" title=""> <i style="font-size: 15px;" class="fa fa-shopping-bag"
+                                aria-hidden="true"></i> Thêm vào giỏ
                             hàng</a>
                     </div>
                     <div class="product_meta">

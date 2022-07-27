@@ -11,7 +11,6 @@
             <th>Price</th>
             <th>Sale-Price</th>
             <th>Image</th>
-            <th>Status</th>
         </tr>
     </thead>
     <tbody>
@@ -25,9 +24,9 @@
 
 
             <td><button type="button" class="btn btn-primary mr-1" routerLink="/admin/edit-product/{{item.id}}">
-                Sửa
-                  </button>
-                <button type="button" class="btn btn-danger"  (click)="deleteStudent(item.id)">Xoá</button>
+                    Sửa
+                </button>
+                <button type="button" class="btn btn-danger" (click)="deleteStudent(item.id)">Xoá</button>
             </td>
         </tr>
     </tbody>

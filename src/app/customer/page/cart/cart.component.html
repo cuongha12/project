@@ -1,1 +1,74 @@
-<p>cart works!</p>
+<div class="page-header breadcrumB">
+    <div class="sober-container clearfix">
+        <h5 style="margin: 0;text-transform: uppercase;">
+            <b>Giỏ hàng</b>
+        </h5>
+    </div>
+</div>
+
+<div class="container">
+    <div class="woocommerce">
+        <table class="shop_table shop_table_responsive cart">
+            <thead>
+                <tr>
+                    <th class="product-thumbnail" colspan="2">Sản phẩm</th>
+                    <th class="product-price">Giá</th>
+                    <th class="product-quantity">Số lượng</th>
+                    <th class="product-subtotal">Tổng</th>
+                    <th class="product-remove">&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cart_item" *ngFor="let item of list">
+                    <td class="product-thumbnail">
+                        <a href="/stripe-sweater-p4798793.html">
+                            <img src="{{item.img}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="">
+                        </a>
+                    </td>
+                    <td class="product-name">
+                        <a href="/stripe-sweater-p4798793.html">{{item.name}}</a>
+                    </td>
+                    <td class="product-price" data-title="Giá">
+                        <span class="woocommerce-Price-amount amount">{{item.price}} </span>
+                    </td>
+                    <td class="product-quantity" data-title="Số lượng">
+                        <div class="quantity">
+                            <input type="text" data-id="4798793" class="input-text qty text updateCart"
+                                value="{{item.quantity}}">
+                        </div>
+                    </td>
+                    <td class="product-subtotal">
+                        <span class="woocommerce-Price-amount amount">{{(item.price *item.quantity)}} ₫ </span>
+                    </td>
+                    <td class="product-remove">
+                        <a class="remove removeCart" title="Giá sản phẩm" data-id="4798793"
+                            (click)="deleteCart(item.id)">
+                            <i class="far fa-times-circle"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="cart-collaterals">
+            <div class="cart_totals ">
+                <table cellspacing="0" class="shop_table shop_table_responsive">
+                    <tbody>
+                        <tr class="order-total">
+                            <th>Tổng cộng</th>
+                            <td data-title="Tổng cộng">
+                                <strong>
+                                    <span class="woocommerce-Price-amount amount"> {{totalProduct}} ₫ </span>
+                                </strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="wc-proceed-to-checkout">
+                    <a  routerLink="/" class="button alt">Tiếp tục mua hàng</a>
+                    <a (click)="ok()" class="button alt">Thanh toán</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,163 @@
+.page-header {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    border: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f1f2f4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.woocommerce table.shop_table {
+    border: 0;
+    margin-bottom: 0;
+}
+table{
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+ thead tr {
+    border-bottom: 2px solid #23232c;
+}
+.woocommerce  .shop_table .product-thumbnail {
+    width: 140px;
+}
+.woocommerce .shop_table thead tr th{
+    font-weight: 500;
+    color: #23232c;
+    text-transform: uppercase;
+    border-top: 0;
+    padding: 10px 0;
+    border-right: 0;
+    text-align: center;
+}
+.woocommerce .shop_table tbody .cart_item .product-thumbnail {
+    width: 140px;
+}
+.woocommerce .shop_table td {
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #23232c;
+    padding: 20px 0;
+    border-color: #f1f2f4;
+}
+.woocommerce table.shop_table th, .woocommerce table.shop_table td {
+    border-right: 0;
+    text-align: center;
+}
+.woocommerce table.shop_table .product-thumbnail img {
+    width: 100px;
+}
+.product-name a {
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+.product-price span{
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+}
+.woocommerce .shop_table tbody tr  td  .quantity {
+    display: inline-block;
+    border: 1px solid #e4e6eb;
+}
+.woocommerce .shop_table tbody tr  td  .quantity  input{
+    border-width: 0;
+    width: 66px;
+    text-align: center !important;
+    font-size: 1.6rem;
+    color: #23232c;
+    border-radius: 0;
+    padding: 5px 0;
+}
+.woocommerce .shop_table tbody tr  td  .quantity:hover {
+    border-color: #23232c;
+}
+.product-subtotal span{
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #23232c;
+}
+.product-remove {
+    width: 60px;
+}
+.product-remove a{
+    transition: .5s;
+    color: #23232c;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cart-collaterals {
+    border: 2px solid #f1f2f4;
+    padding: 20px 40px 40px;
+    position: relative;
+    margin-top: 70px;
+    height: 200px;
+}
+.cart-collaterals table.shop_table th, .cart-collaterals table.shop_table td {
+    font-size: 1.6rem;
+    color: #23232c;
+    font-weight: 500;
+    text-align: right;
+}
+.cart-collaterals .wc-proceed-to-checkout {
+    width: 75%;
+    float: right;
+    clear: both;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+
+
+}
+.cart-collaterals .wc-proceed-to-checkout a {
+   
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 80px;
+    width: 100%;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+    min-width: 200px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: #23232c;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.wc-proceed-to-checkout a {
+    display: inline-block !important;
+    width: auto !important;
+}
+.wc-proceed-to-checkout a:hover{
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    background-color: #111114;
+}
+.cart-collaterals .cart_totals table tbody tr{
+    border-bottom: 2px solid #e4e6eb;
+}
+.wc-proceed-to-checkout{
+    margin-top: 20px;
+}

@@ -1,487 +1,479 @@
 {
   "producthome": [
     {
-      "id": 1,
-      "name": "Demo",
-      "price": "1,230,230 đ",
-      "img": "https://mcdn.nhanh.vn/store/18131/ps/20171117/22228659_1958158637798279_6481759436594791816_n_552x640.jpg",
-      "itemhome": true
-    },
-    {
       "id": 2,
       "name": "Stripe Sweater",
-      "price": "200,000 đ",
+      "price": 200000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sweater1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 3,
       "name": "Sleeveless Dress",
-      "price": "160,000 đ",
+      "price": 160000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sleeveless1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 4,
       "name": "Runway Pants",
-      "price": "400,000 đ",
+      "price": 400000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/runway1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 5,
       "name": "Over-Sized Pants",
-      "price": "105,000 đ",
+      "price": 105000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/over_sized1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 6,
       "name": "Medium Sleeve Dress",
-      "price": "140,000 đ",
+      "price": 140000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sleeve1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 7,
       "name": "Light Felt Coat",
-      "price": "430,000 đ",
+      "price": 430000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/felt1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 8,
       "name": "Flared Skirts",
-      "price": "90,000 đ",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/flared1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 9,
       "name": "Denim Dress",
-      "price": "90,000 đ",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/denim1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 10,
       "name": "Sleeveless Dress",
-      "price": "215,000 đ",
+      "price": 215000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/crewneck1_thumb_592x600.jpg",
       "itemhome": true
     },
     {
       "id": 11,
       "name": "Harman Blue Sneakers",
-      "price": "315,000 ₫",
+      "price": 315000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_2_1_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 12,
       "name": "Zip Sneakers",
-      "price": "320,000 ₫",
+      "price": 320000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_3_1_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 13,
       "name": "Tassle Slip On",
-      "price": "80,000 ₫",
+      "price": 80000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_38_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 14,
       "name": "Suede Sneakers 2",
-      "price": "115,000 ₫",
+      "price": 115000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_36_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 15,
       "name": "Suede Sneaker",
-      "price": "150,000 ₫",
+      "price": 150000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/22362017103612_1_35_897x908_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 16,
       "name": "Slip On Sneakers",
-      "price": "155,000 ₫",
+      "price": 155000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/22322017103257_13_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 17,
       "name": "Lace Up Sneakers",
-      "price": "235,000 ₫",
+      "price": 235000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/9_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 18,
       "name": "Slip Sneakers",
-      "price": "270,000 ₫",
+      "price": 270000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/22062017100609_1_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 19,
       "name": "High Top Sneakers",
-      "price": "345,000 ₫",
+      "price": 345000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/22302017103042_4_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 20,
       "name": "Eather Trainers",
-      "price": "310,000 ₫",
+      "price": 310000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/22292017102954_1_897x908_thumb_592x600.jpg",
       "itemfoot": true
     },
     {
       "id": 21,
       "name": "Midnight Hat",
-      "price": "110,000 ₫",
+      "price": 110000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/mid1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 22,
       "name": "Zip Fedora",
-      "price": "70,000 ₫",
+      "price": 70000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/fedora1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 23,
       "name": "Wireless Over Ear Headphones",
-      "price": "180,000 ₫",
+      "price": 180000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/wireless1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 24,
       "name": "Torso Mittens",
-      "price": "15,000 ₫",
+      "price": 15000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/torso1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 25,
       "name": "Striped Braid Trilby",
-      "price": "160,000 ₫",
+      "price": 160000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/striped1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 26,
       "name": "State Sungalesses",
-      "price": "450,000 ₫",
+      "price": 450000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/state1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 27,
       "name": "House Bird",
-      "price": "90,000 ₫",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/bird1_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 28,
       "name": "Guide Pack Cap",
-      "price": "50,000 ₫",
+      "price": 50000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/pack2_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 29,
       "name": "Cotton Hat",
-      "price": "40,000 ₫",
+      "price": 40000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_7_897x908_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 30,
       "name": "Ear Headphones",
-      "price": "180,000 ₫",
+      "price": 180000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/phone2_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 31,
       "name": "Cashmere Hat",
-      "price": "35,000 ₫",
+      "price": 35000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_5_897x908_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 32,
       "name": "Black Glasses",
-      "price": "310,000 ₫",
+      "price": 310000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_1_897x908_thumb_592x600.jpg",
       "itemacc": true
     },
     {
       "id": 33,
       "name": "Stripe Sweater",
-      "price": "200,000 ₫",
+      "price": 200000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sweater1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 34,
       "name": "Sleeveless Dress",
-      "price": "160,000 ₫",
+      "price": 160000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sleeveless1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 35,
       "name": "Runway Pants",
-      "price": "400,000 ₫",
+      "price": 400000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/runway1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 36,
       "name": "Over-Sized Pants",
-      "price": "105,000 ₫",
+      "price": 105000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/over_sized1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 37,
       "name": "Medium Sleeve Dress",
-      "price": "140,000 ₫",
+      "price": 140000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/sleeve1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 38,
       "name": "Light Felt Coat",
-      "price": "430,000 ₫",
+      "price": 430000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/felt1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 39,
       "name": "Flared Skirts",
-      "price": "90,000 ₫",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/flared1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 40,
       "name": "Denim Dress",
-      "price": "90,000 ₫",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/denim1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 41,
       "name": "Crewneck Blouse",
-      "price": "215,000 ₫",
+      "price": 215000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/crewneck1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 42,
       "name": "Cotton Poplin Dress",
-      "price": "155,000 ₫",
+      "price": 155000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/poplin1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 43,
       "name": "Cotton Jacket",
-      "price": "100,000 ₫",
+      "price": 100000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/jacket1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 44,
       "name": "Classic Topper",
-      "price": "490,000 ₫",
+      "price": 490000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/topper1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 45,
       "name": "Boxy Runway T-Shirt",
-      "price": "210,000 ₫",
+      "price": 210000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/boxy1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 46,
       "name": "Bomber in Cotton",
-      "price": "290,000 ₫",
+      "price": 290000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/bomber1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 47,
       "name": "Blue Raincoat",
-      "price": "430,000 ₫",
+      "price": 430000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/raincoat1_thumb_592x600.jpg",
       "itemwomen": true
     },
     {
       "id": 48,
       "name": "Victory Short",
-      "price": "120,000 ₫",
+      "price": 120000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/victory1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 49,
       "name": "Texture Shirt",
-      "price": "90,000 ₫",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/texture1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 50,
       "name": "Puffy Jacket",
-      "price": "225,000 ₫",
+      "price": 225000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/puffy_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 51,
       "name": "Light Nylon Jacket",
-      "price": "300,000 ₫",
+      "price": 300000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/light1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 52,
       "name": "Hooded Coat",
-      "price": "290,000 ₫",
+      "price": 290000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/hooded1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 53,
       "name": "Hood Comapct Sweat",
-      "price": "95,000 ₫",
+      "price": 95000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/comapct1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 54,
       "name": "Flared Skirts",
-      "price": "90,000 ₫",
+      "price": 90000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/t_shirt1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 55,
       "name": "Cotton T-shirt",
-      "price": "320,000 ₫",
+      "price": 320000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/cotton1_thumb_592x600.jpg",
       "itemman": true
     },
     {
       "id": 56,
       "name": "Voll Backpack",
-      "price": "145,000 ₫",
+      "price": 145000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_42_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 57,
       "name": "Travel Bag",
-      "price": "80,000 ₫",
+      "price": 80000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/3_27_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 58,
       "name": "Sling Bag",
-      "price": "215,000 ₫",
+      "price": 215000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_30_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 59,
       "name": "Settlement backpack",
-      "price": "420,000 ₫",
+      "price": 420000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_29_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 60,
       "name": "Roll Top Backpack",
-      "price": "365,000 ₫",
+      "price": 365000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_27_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 61,
       "name": "Nylon Day Bag",
-      "price": "190,000 ₫",
+      "price": 190000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_24_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 62,
       "name": "Nova Bag",
-      "price": "160,000 ₫",
+      "price": 160000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_23_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 63,
       "name": "Navy Blue Bag",
-      "price": "230,000 ₫",
+      "price": 230000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_3_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 64,
       "name": "Mid Backpack",
-      "price": "175,000 ₫",
+      "price": 175000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_1_7_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 65,
       "name": "Leather Tote Bag",
-      "price": "470,000 ₫",
+      "price": 470000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_20_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 66,
       "name": "Leather Backpack",
-      "price": "250,000 ₫",
+      "price": 250000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_1_5_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 67,
       "name": "Fanny Pack",
-      "price": "200,000 ₫",
+      "price": 200000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_14_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 68,
       "name": "Expedition Backpack",
-      "price": "225,000 ₫",
+      "price": 225000,
       "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/1_2_897x908_thumb_592x600.jpg",
       "itembag": true
     },
     {
       "id": 69,
       "name": "Azure Tote",
-      "price": "290,000 ₫",
-      "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_842x1000.jpg",
-      "itembag": true
+      "price": 290000,
+      "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/2_842x1000.jpg"
     }
   ],
   "form": [
@@ -658,6 +650,16 @@
       "address": "",
       "date": "",
       "id": 24
+    }
+  ],
+  "cart": [
+    {
+      "id_product": 4,
+      "img": "https://mcdn.nhanh.vn/store/18131/ps/20170722/runway1_thumb_592x600.jpg",
+      "name": "Runway Pants",
+      "price": 400000,
+      "quantity": 7,
+      "id": 1
     }
   ]
 }

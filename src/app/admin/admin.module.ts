@@ -10,6 +10,7 @@ import { ProductsComponent } from './content/products/products.component';
 import { AdproductComponent } from './content/adproduct/adproduct.component';
 import { EditproductComponent } from './content/editproduct/editproduct.component';
 import { HomecontentComponent } from './content/homecontent/homecontent.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HomecontentComponent } from './content/homecontent/homecontent.componen
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class AdminModule { }

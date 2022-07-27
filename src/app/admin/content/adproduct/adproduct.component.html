@@ -1,1 +1,36 @@
-<p>adproduct works!</p>
+<div class="container">
+    <div class="header d-flex justify-content-sb">
+        <h3>Edit Product</h3>
+        <button type="button" class="btn btn-success text-light m-2 "
+            style="text-transform: capitalize;font-size: 18px;" routerLink="/admin/products"><i
+                class="fa-solid fa-rotate-left"></i> Back To List
+        </button>
+    </div>
+    <form action="" [formGroup]="formData">
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Name Product</label>
+            <input type="text" class="ip-addProduct  w-100 p-2" formControlName="name">
+            <div *ngIf="f.name.invalid &&( f.name.dirty || f.name.touched )" class="text-danger">
+                <div *ngIf="f.name.errors.required">Name cannot be empty</div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Price</label>
+            <input type="text" class="ip-addProduct  w-100 p-2" formControlName="price">
+            <div *ngIf="f.price.invalid && (f.price.dirty || f.price.touched )" class="text-danger">
+                <div *ngIf="f.price.errors.required">Price cannot be empty</div>
+            </div>
+        </div>
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">Image</label>
+            <input type="text" class="ip-addProduct  w-100 p-2" formControlName="img">
+            <small *ngIf="this.formData.value.price < this.formData.value.sale_price" class="text-danger">The sale price
+                must be less than the original price</small>
+        </div>
+
+        <div class="submit text-center" style="margin-bottom: 100px;">
+            <button type="submit" (click)="submitForm()" [disabled]="!formData.valid" style=" font-weight: 600;"
+                class="btn btn-success w-100 p-2">Update Product</button>
+        </div>
+    </form>
+</div>

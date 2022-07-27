@@ -7,12 +7,14 @@ import { ProductsComponent } from './content/products/products.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent,children:[
-    {path:'',component:HomecontentComponent},
-    {path:'products',component:ProductsComponent},
-    {path:'adproduct',component:AdproductComponent},
-    {path:'edit-product/:id',component:EditproductComponent}
-  ]}
+  {
+    path: '', component: HomeComponent, children: [
+      { path: '', component: HomecontentComponent },
+      { path: 'products', component: ProductsComponent },
+      { path: 'add-product', component: AdproductComponent },
+      { path: 'edit-product/:id', component: EditproductComponent }
+    ]
+  }
 ];
 
 @NgModule({
