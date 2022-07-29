@@ -47,6 +47,26 @@ export class EditproductComponent implements OnInit {
       console.log(this.formData.value.img);
       console.log(this.formData.value.price);
       console.log(this.formData.value.id);
+      let dataEdit: any = document.getElementById('address')
+      dataEdit.value
+      if (data.itemhome === true) {
+        dataEdit.value = 'Home'
+      }
+      if (data.itemfoot === true) {
+        dataEdit.value = 'Foot'
+      }
+      if (data.itemwomen === true) {
+        dataEdit.value = 'Women'
+      }
+      if (data.itemman === true) {
+        dataEdit.value = 'Man'
+      }
+      if (data.itemacc === true) {
+        dataEdit.value = 'Accessories'
+      }
+      if (data.itembags === true) {
+        dataEdit.value = 'Bags'
+      }
     })
   }
   submitForm() {
@@ -58,8 +78,6 @@ export class EditproductComponent implements OnInit {
     this.data.name = this.formData.value.name
     this.data.price = this.formData.value.price
     this.data.img = this.formData.value.img
-   
-
     this.service.putProduct(this.data, this.formData.value.id).subscribe((data) => {
       console.log(data);
       alert('Done')
@@ -72,5 +90,40 @@ export class EditproductComponent implements OnInit {
   get f(): any {
     return this.formData.controls
   }
-
+  Address() {
+    let data: any = document.getElementById('address')
+    data.value
+    let add: string = data.value
+    alert(add)
+    if (add.toLocaleLowerCase() == 'home') {
+      this.data.itemhome = true
+    } else {
+      this.data.itemhome = false
+    }
+    if (add.toLocaleLowerCase() == 'foot') {
+      this.data.itemfoot = true
+    } else {
+      this.data.itemfoot = false
+    }
+    if (add.toLocaleLowerCase() == 'accessories') {
+      this.data.itemacc = true
+    } else {
+      this.data.itemacc = false
+    }
+    if (add.toLocaleLowerCase() == 'women') {
+      this.data.itemwomen = true
+    } else {
+      this.data.itemwomen = false
+    }
+    if (add.toLocaleLowerCase() == 'man') {
+      this.data.itemman = true
+    } else {
+      this.data.itemman = false
+    }
+    if (add.toLocaleLowerCase() == 'bags') {
+      this.data.itembags = true
+    } else {
+      this.data.itembags = false
+    }
+  }
 }

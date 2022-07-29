@@ -27,6 +27,22 @@
             <small *ngIf="this.formData.value.price < this.formData.value.sale_price" class="text-danger">The sale price
                 must be less than the original price</small>
         </div>
+        <div class="input-item mb-3">
+            <label for="" class="d-block mb-1">
+                <Address></Address>
+            </label>
+            <select name="" id="address" (change)="Address()">
+                <option value="Home">Home</option>
+                <option value="Foot">Foot</option>=
+                <option value="Accessories">Accessories</option>
+                <option value="Women">Women</option>
+                <option value="Man">Man</option>
+                <option value="Bags">Bags</option>
+            </select>
+            <small *ngIf="this.formData.value.price < this.formData.value.sale_price" class="text-danger">The sale price
+                must be less than the original price</small>
+        </div>
+
 
         <div class="submit text-center" style="margin-bottom: 100px;">
             <button type="submit" (click)="submitForm()" [disabled]="!formData.valid" style=" font-weight: 600;"

@@ -24,7 +24,7 @@ export class AdproductComponent implements OnInit {
   })
   constructor(private service: ProductDataService, private route: ActivatedRoute, private router: Router) { }
   ngOnInit(): void {
-
+    this.service
     const children = document.querySelector('.showImage')
     children?.addEventListener('click', (e: any) => {
       let id: number = e.target.id
@@ -51,6 +51,43 @@ export class AdproductComponent implements OnInit {
     //   console.log(this.formData.value.id);
     // })
   }
+  Address() {
+
+    let data: any = document.getElementById('address')
+    data.value
+    let add: string = data.value
+    alert(add)
+    if (add.toLocaleLowerCase() == 'home') {
+      this.data.itemhome = true
+    } else {
+      this.data.itemhome = false
+    }
+    if (add.toLocaleLowerCase() == 'foot') {
+      this.data.itemfoot = true
+    } else {
+      this.data.itemfoot = false
+    }
+    if (add.toLocaleLowerCase() == 'accessories') {
+      this.data.itemacc = true
+    } else {
+      this.data.itemacc = false
+    }
+    if (add.toLocaleLowerCase() == 'women') {
+      this.data.itemwomen = true
+    } else {
+      this.data.itemwomen = false
+    }
+    if (add.toLocaleLowerCase() == 'man') {
+      this.data.itemman = true
+    } else {
+      this.data.itemman = false
+    }
+    if (add.toLocaleLowerCase() == 'bags') {
+      this.data.itembags = true
+    } else {
+      this.data.itembags = false
+    }
+  }
   submitForm() {
     alert('ok')
     // if (!this.formData.value.img) {
@@ -67,7 +104,6 @@ export class AdproductComponent implements OnInit {
       if (confirm('ban co muon ra trang danh sach khong ? ')) {
         this.router.navigate(['/admin/products'])
       }
-
     })
     // }
   }

@@ -1,6 +1,18 @@
 {
   "producthome": [
     {
+      "itemhome": true,
+      "itemfoot": false,
+      "itemacc": false,
+      "itemwomen": false,
+      "itemman": false,
+      "itembags": false,
+      "id": 1,
+      "name": "Demo",
+      "price": 1230230,
+      "img": "https://img.cdn.vncdn.io/nvn/ncdn/store/18131/ps/2…958158637798279_6481759436594791816_n_552x640.jpg"
+    },
+    {
       "id": 2,
       "name": "Stripe Sweater",
       "price": 200000,
