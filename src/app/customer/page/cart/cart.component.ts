@@ -39,6 +39,7 @@ export class CartComponent implements OnInit {
   ok() {
     if (this.totalProduct == 0) {
       alert('Không có sản phẩm trong giỏ hàng')
+
     } else {
       this.list.forEach((data: any) => {
         alert('Đặt hàng thành công')

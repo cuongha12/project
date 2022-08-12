@@ -52,7 +52,6 @@ export class AdproductComponent implements OnInit {
     // })
   }
   Address() {
-
     let data: any = document.getElementById('address')
     data.value
     let add: string = data.value
